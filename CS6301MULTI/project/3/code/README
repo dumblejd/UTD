@@ -1,0 +1,30 @@
+To run the code:
+1. Use javac runList.java
+2. Use java runList   <---it will run 10 threads with 100000 times for each
+It will show the expected list length and actual length.
+Expected length is based on ThreadLocal variable in each theread.
+
+
+Example:
+ javac runList.java
+
+DideMacBook-Pro:code dijin$ java runList
+final list length(not include head and tail): 9
+Expected length：9
+DideMacBook-Pro:code dijin$ java runList
+final list length(not include head and tail): 9
+Expected length：9
+DideMacBook-Pro:code dijin$ java runList
+final list length(not include head and tail): 12
+Expected length：9
+DideMacBook-Pro:code dijin$ 
+DideMacBook-Pro:code dijin$ java runList
+final list length(not include head and tail): 9
+Expected length：9
+DideMacBook-Pro:code dijin$ java runList
+final list length(not include head and tail): 11
+Expected length：11
+DideMacBook-Pro:code dijin$ java runList
+final list length(not include head and tail): 11
+Expected length：11
+
